@@ -45,7 +45,7 @@
                                 </asp:Panel>
                             </div>
                             
-                                <asp:DropDownList ID="lsCursos" runat="server"></asp:DropDownList>
+                                <asp:DropDownList ID="lsCursos" runat="server" OnSelectedIndexChanged="lsCursos_SelectedIndexChanged"></asp:DropDownList>
                             
                         </div>
 					</div>

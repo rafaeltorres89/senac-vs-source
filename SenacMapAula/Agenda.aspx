@@ -1,14 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SenacMapSite.Master" AutoEventWireup="true" CodeBehind="Agenda.aspx.cs" Inherits="br.senac.sp.mapaaula.web.adm.Disciplina" %>
 <asp:Content ID="Agenda" ContentPlaceHolderID="content" runat="server">
 
-    <form id="Agenda" runat="server">
         <div class="main-MP">
             <div class="col-lg-12">
                 <p class="title-agenda">Tecnologia de Sistemas para Internet - 1 Semestre - Noite</p>
                 <ul class="agenda-tab">
                     <li class="dia-tab">
-                        <h4>Segunda</h4>
-                        <div class="horario">19h10 - 20h50</div>
+                        <h4>Segunda</h4> 
+                        <div class="horario">19h10 - 21h50</div>
                         <div class="sala-tab">
                             <p><strong>DLS</strong><br />G465</p>
                         </div>
@@ -103,6 +102,5 @@
                 </div>
             </div>
         </div>
-    </form>
 
 </asp:Content>

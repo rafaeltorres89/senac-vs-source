@@ -62,6 +62,7 @@
     <Content Include="adm\CursoTurmaDisciplina.aspx" />
     <Content Include="adm\Disciplina.aspx" />
     <Content Include="adm\Membro.aspx" />
+    <Content Include="Agenda.aspx" />
     <Content Include="Politica.aspx" />
     <Content Include="adm\Sala.aspx" />
     <Content Include="Sobre.aspx" />
@@ -127,6 +128,13 @@
     </Compile>
     <Compile Include="adm\Membro.aspx.designer.cs">
       <DependentUpon>Membro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda.aspx.cs">
+      <DependentUpon>Agenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agenda.aspx.designer.cs">
+      <DependentUpon>Agenda.aspx</DependentUpon>
     </Compile>
     <Compile Include="Politica.aspx.cs">
       <DependentUpon>Politica.aspx</DependentUpon>

@@ -54,5 +54,10 @@ namespace br.senac.sp.mapaaula.web
         {
             return new TurmaDao(ConfigurationManager.ConnectionStrings["br.senac.sp.mapaaula.dao.config"].ConnectionString);
         }
+
+        protected void lsCursos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Server.Transfer("~/Agenda.aspx?id=" + lsCursos.SelectedValue);
+        }
     }
 }

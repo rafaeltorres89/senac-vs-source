@@ -11,14 +11,5 @@ namespace br.senac.sp.mapaaula.web.adm {
     
     
     public partial class Disciplina {
-        
-        /// <summary>
-        /// Agenda control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm Agenda;
     }
 }

@@ -1,0 +1,7 @@
+Z:\SenacMapaAula\SenacMapAula\bin\SenacMapAula.dll
+Z:\SenacMapaAula\SenacMapAula\bin\SenacMapAula.pdb
+Z:\SenacMapaAula\SenacMapAula\bin\SenacMapAdoLib.dll
+Z:\SenacMapaAula\SenacMapAula\bin\SenacMapAdoLib.pdb
+Z:\SenacMapaAula\SenacMapAula\obj\Debug\SenacMapAula.csprojResolveAssemblyReference.cache
+Z:\SenacMapaAula\SenacMapAula\obj\Debug\SenacMapAula.dll
+Z:\SenacMapaAula\SenacMapAula\obj\Debug\SenacMapAula.pdb

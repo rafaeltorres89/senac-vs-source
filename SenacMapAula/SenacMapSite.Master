@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SenacMapSite.Master.cs" Inherits="br.senac.sp.mapaaula.web.SenacMapMaster" %>
+<!DOCTYPE html>
+<html lang="en">
+	<head runat="server">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Senac Mapas PI</title>
+		
+		<!-- Bootstrap core CSS -->
+		<link href="/css/bootstrap.css" rel="stylesheet">
+
+		<!-- Nosso CSS da Página -->
+		<link href="/css/mapSenac-theme.css" rel="stylesheet">
+		<link href="/css/internas.css" rel="stylesheet">
+
+        <script src="/js/jquery-1.10.2.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		
+		
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.js"></script>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+        <form id="frmCursos" runat="server">
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<div id="wrap">
+			<div class="jumbotron">
+				<div class="container">
+					<div class="col-lg-6">
+						<h1><a href="#">Senac Mapas</a></h1>
+					</div>
+					<div class="col-lg-6">
+						<!-- Bloco lateral superior -->
+                        <div class="choice-logout">
+                            <div class="perfil-online">
+                                <asp:Panel ID="pnlUsuario" runat="server" Visible="false">
+                                    <asp:Label ID="lblUsuario" runat="server" Text="João Paulo Varandas" />
+
+                                    <asp:HyperLink ID="lnkLogout" runat="server" NavigateUrl="~/Logout.aspx">Logout</asp:HyperLink>
+                                </asp:Panel>
+                            </div>
+                            
+                                <asp:DropDownList ID="lsCursos" runat="server"></asp:DropDownList>
+                            
+                        </div>
+					</div>
+				</div>
+			</div>
+                    <asp:Panel ID="pnlMenu" runat="server" Visible="false">
+			<div class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<!-- Menu de Navegacao -->
+                            <li><asp:HyperLink ID="lnkCurso" runat="server" NavigateUrl="~/adm/Curso.aspx">Curso</asp:HyperLink></li>
+							<li><asp:HyperLink ID="lnkDisciplina" runat="server" NavigateUrl="~/adm/Disciplina.aspx">Disciplina</asp:HyperLink></li>
+							<li><asp:HyperLink ID="lnkMembros" runat="server" NavigateUrl="~/adm/Membro.aspx">Membro</asp:HyperLink></li>
+							<li><asp:HyperLink ID="lnkSala" runat="server" NavigateUrl="~/adm/Sala.aspx">Sala</asp:HyperLink></li>
+							<li><asp:HyperLink ID="lnkTipoSala" runat="server" NavigateUrl="~/adm/TipoSala.aspx">TipoSala</asp:HyperLink></li>
+						</ul>
+                        
+					</div><!--/.navbar-collapse -->
+                    
+				</div>
+			</div>
+                </asp:Panel>
+            <!-- /Go container -->
+			<div class="container">
+				<asp:ContentPlaceHolder ID="content" runat="server">
+        
+                </asp:ContentPlaceHolder>
+			</div>
+			<!-- /End container -->
+		</div>
+		<div id="footer">
+			<div class="container">
+				<ul>
+					<li></li>
+					<li><asp:HyperLink runat="server" NavigateUrl="~/Sobre.aspx">Sobre a AJCRTJP</asp:HyperLink></li>
+					<li><asp:HyperLink runat="server" NavigateUrl="~/TermosUso.aspx">Termos de uso</asp:HyperLink></li>
+					<li><asp:HyperLink runat="server" NavigateUrl="~/Politica.aspx">Política de privacidade</asp:HyperLink></li>
+				</ul>
+
+                <asp:HyperLink ID="lnkLogin" runat="server" NavigateUrl="~/Login.aspx" CssClass="button">Login</asp:HyperLink>
+			</div>
+		</div>
+
+        </form>
+	</body>
+</html>

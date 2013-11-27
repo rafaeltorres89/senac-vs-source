@@ -1,0 +1,8 @@
+Z:\SenacMapaAula\SenacMapTest\bin\Debug\SenacMapTest.exe.config
+Z:\SenacMapaAula\SenacMapTest\bin\Debug\SenacMapTest.exe
+Z:\SenacMapaAula\SenacMapTest\bin\Debug\SenacMapTest.pdb
+Z:\SenacMapaAula\SenacMapTest\bin\Debug\SenacMapAdoLib.dll
+Z:\SenacMapaAula\SenacMapTest\bin\Debug\SenacMapAdoLib.pdb
+Z:\SenacMapaAula\SenacMapTest\obj\Debug\SenacMapTest.csprojResolveAssemblyReference.cache
+Z:\SenacMapaAula\SenacMapTest\obj\Debug\SenacMapTest.exe
+Z:\SenacMapaAula\SenacMapTest\obj\Debug\SenacMapTest.pdb

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenacMapAdoLib", "SenacMapAdoLib\SenacMapAdoLib.csproj", "{7E7AD8A7-2F59-4480-9E42-9A37D24C7B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenacMapTest", "SenacMapTest\SenacMapTest.csproj", "{AE92A0C7-2926-4FF4-B1F2-17D2D9F8E9EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenacMapAula", "SenacMapAula\SenacMapAula.csproj", "{7E6FBFA7-EE42-47B4-A549-09E5660E6A95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E7AD8A7-2F59-4480-9E42-9A37D24C7B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7AD8A7-2F59-4480-9E42-9A37D24C7B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7AD8A7-2F59-4480-9E42-9A37D24C7B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7AD8A7-2F59-4480-9E42-9A37D24C7B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE92A0C7-2926-4FF4-B1F2-17D2D9F8E9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE92A0C7-2926-4FF4-B1F2-17D2D9F8E9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE92A0C7-2926-4FF4-B1F2-17D2D9F8E9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE92A0C7-2926-4FF4-B1F2-17D2D9F8E9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6FBFA7-EE42-47B4-A549-09E5660E6A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6FBFA7-EE42-47B4-A549-09E5660E6A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6FBFA7-EE42-47B4-A549-09E5660E6A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6FBFA7-EE42-47B4-A549-09E5660E6A95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

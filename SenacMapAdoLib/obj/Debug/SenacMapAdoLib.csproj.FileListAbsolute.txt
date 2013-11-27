@@ -1,0 +1,4 @@
+Z:\SenacMapaAula\SenacMapAdoLib\bin\Debug\SenacMapAdoLib.dll
+Z:\SenacMapaAula\SenacMapAdoLib\bin\Debug\SenacMapAdoLib.pdb
+Z:\SenacMapaAula\SenacMapAdoLib\obj\Debug\SenacMapAdoLib.dll
+Z:\SenacMapaAula\SenacMapAdoLib\obj\Debug\SenacMapAdoLib.pdb

@@ -171,3 +171,108 @@
     color: #58595b;
     margin: 0 0 15px 30px;
 }
+
+/*Bloco Superior*/
+.main-MP ul.agenda-tab {
+    float:left;
+    width:100%; height:100%;
+    margin:0 0 0 0;
+    text-align:center;
+    list-style:none;
+}
+
+.main-MP ul.agenda-tab li.dia-tab {
+    float:left;
+    width:16%;    height:100%;
+    margin:0 0.3% 0 0;
+}
+
+.main-MP ul.agenda-tab li.dia-tab h4 {
+    float:left;
+    width:99%;    height:30px;
+    margin:0 0 0 0;
+    border:solid 1px #BEC7D8;
+    background: #2287D7;
+    text-align:center; line-height:30px;
+    font-family: Arial, Verdana; font-size: 12px;
+    color: #fff;
+}
+
+.main-MP ul.agenda-tab li.dia-tab .horario {
+    float:left;
+    width:120px;    height:10%;
+    margin:49px 0 0 -49px;
+    border-bottom:solid 1px #BEC7D8;
+    border-top:solid 1px #BEC7D8;
+    border-left:solid 1px #BEC7D8;
+    background: #EB9420;
+    text-align:center; line-height:20px;
+    font-family: Arial, Verdana; font-size: 10px;
+    color: #fff;
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari and Chrome */
+}
+
+.main-MP ul.agenda-tab li.dia-tab .sala-tab {
+    float:left;
+    width:86.5%;    height:60px;
+    margin:0 0 0 -50px;
+    border-bottom:solid 1px #BEC7D8;
+    border-right:solid 1px #BEC7D8;
+    text-align:center;
+}
+
+.main-MP ul.agenda-tab li.dia-tab .sala-tab p {
+    font-family: Arial, Verdana; font-size: 10px;
+    color: #58595b;
+    margin-top:15px;
+}
+
+.main-MP ul.agenda-tab li.dia-tab .sala-tab p strong {
+    font-size: 14px;   font-weight:bold;
+}
+
+p.title-agenda {
+    float:left;
+    font-family: Arial, Verdana; font-size: 14px;   font-weight:bold;
+    color: #344257;
+    margin:0 0 20px 40px;
+    width:100%;
+}
+
+.table-docente {
+    float:left;
+    width:93.6%;
+    margin:30px 0 20px 40px;
+}
+
+p.title-componete {
+    float:left;
+    font-family: Arial, Verdana; font-size: 14px;   font-weight:bold;
+    color: #344257;
+    margin:0 0 20px 0;
+    width:100%;
+}
+
+.tbl-componete {
+    float:left;
+    width:100%; height:100%;
+    margin:0 0 20px 0;
+    border-top: solid 1px #ccc;
+}
+
+.box-tb {
+    float:left; height:30px;    line-height:30px;
+    margin: 0 0 0 0;    padding: 0 0 0 1%;
+    border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+
+    .cod-tb { width: 8%;   border-left: solid 1px #BEC7D8; }
+
+    .disc-tb { width: 45%; }
+
+    .horas-tb { width: 5%; }
+
+    .docent-tb { width: 42%; }
